@@ -9,7 +9,7 @@ function App() {
   const [location, setLocation] = useState(null);
   const [results, setResults] = useState([]);
   const [error, setError] = useState(null);
-  const [sortby, setSortby] = useState('review_count')
+  const [sortby, setSortby] = useState('rating')
 
   const fetchYelpData = async() => {
     const config = {
